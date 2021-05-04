@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .main{
+     height: 200vh;
+     background-color: red;
+     display: flex;
+     flex-direction: column;
+ }
+ .nav{
+     display: flex;
+     flex: 0.05;
+     background-color: rosybrown;
+ }
+ .title{
+     display: flex;
+     flex: 0.15;
+     background-color: royalblue;
+ }
+ .beverage{
+     display: flex;
+     flex: 0.1;
+     background-color: saddlebrown;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ .Oil{
+     display: flex;
+     flex: 0.1;
+     background-color: slateblue;
+
+ }
+ .breakfast{
+     display: flex;
+     flex: 0.1;
+     background-color: yellow;
+
+ }
+ .petcare{
+     display: flex;
+     flex: 0.1;
+     background-color: skyblue;
+
+ }
+.miscellaneous{
+    display: flex;
+    flex: 0.1;
+    background-color: sienna;
+
+}
+.rice{
+    background-color: seagreen;
+    display: flex;
+    flex: 0.1;
+
+}
+.cooking{
+    display: flex;
+    flex: 0.1;
+    background-color: salmon;
+}
+.cleaningsupply{
+    display: flex;
+    flex: 0.1;
+    background-color: slategrey;
+}

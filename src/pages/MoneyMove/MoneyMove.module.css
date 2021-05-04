@@ -1,0 +1,74 @@
+.main{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    background-color:#375a64 ;
+}
+.imagediv{display: flex;
+    background-image: url(../../images/get\ a\ ride.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.form1{
+    justify-content: flex-end;
+    height: 520px;
+    align-items: center;
+    width: 350px;
+    align-content: center;
+    background-color:#bfbfbf;
+    margin-right: 50px;
+    display: flex;
+}
+.uppertext{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+.SignUp{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 0.5;
+}
+.lowertext{
+    display: flex;
+    flex: 0.05;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: serif;
+}
+.purposediv{
+    display: flex;
+    flex:0.2 ;
+    justify-content: space-evenly;
+
+}
+.footerdiv{
+    display: flex;
+    flex:0.02 ;
+  justify-content: space-around;
+  align-items:center;
+    color:#fc6f30 ;
+    
+
+}
+.buttondiv{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: white;
+    color:#3fc1c9 ;
+}
+button:focus{
+    color:#898989 ;
+}
+button:active{
+    background-color: white;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wholepage{
+    display: flex;
+    height: 300vh;
+    flex-direction: column;
+}
+.upperwholepage{
+    display: flex;
+    flex-direction: row;
+    background-color: #375a64;
+
+}
+.lowerwholepage{
+    display: flex;
+    flex-direction: row;
+   flex:0.2;
+   
+}
+
+.rightlandingpage{
+    flex:0.7; 
+    background-image: url('../../images/landingpage.png');
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    display:flex;
+    height: 420px;
+
+}
+
+.leftlandingpage{
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .wholenav{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+} */
+.Values{
+    display: flex;
+    flex: 0.1;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.Shopping{
+    display: flex;
+    flex: 0.4;
+    flex-direction: column;
+    font-size: 30px;
+}
+.shoppingheading{
+    display: flex;
+    /* flex: 0.1; */
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px;
+    padding-top: 15px; */
+    background-color:#bfbfbf;
+    height: 100px;
+    width: 100vw;
+    
+
+    
+}
+.toprow{
+    display: flex;
+    flex: 0.45;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+.card2{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+}
+.card3{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+.card4{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.bottomrow{
+    display: flex;
+    flex: 0.45;
+    justify-content: space-around;
+}
+
+.Advertisement{
+    display: flex;
+    flex: 0.18;
+    background-color: burlywood;
+}
+.footerhead{
+    display: flex;
+    flex: 0.07;
+}
+.footerdiv{
+    display: flex;
+    flex:0.05;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+@media screen and (max-width:570px){
+
+}

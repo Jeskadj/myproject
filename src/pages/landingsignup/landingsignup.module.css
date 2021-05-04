@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    /* flex: 0.1; */
+    background-color: #375a64;
+}
+.f:hover{
+    color:#375a64 ;
+}
+.s:hover{
+  color: #375a64;  
+}
+.t:hover{
+  color: #375a64;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.firstpair{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex: 0.4;
+}
+
+.lowerpair{
+    display: flex;
+    flex: 0.4;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+
+.footerdiv{
+    display: flex;
+    flex: 0.1;
+    justify-content: space-around;
+    align-self: flex-end;
+    color: #fc6f30;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.whole{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/shoppingsignup.png);
+    background-size: cover;
+}
+
+
+.nav{
+    display: flex;
+    flex: 0.1;
+}
+.main{
+    display: flex;
+    flex: 0.75;
+    background-repeat: no-repeat;
+    justify-content: center;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    justify-content: center;
+    border: 2px solid none;
+    height: 450px;
+    align-items: center;
+    width: 350px;
+    align-content: center;
+    background-color: hsla(0.9, 50%, 70%, 0.5);
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.firstname{
+    margin-top: 13px;
+    
+}
+.link{
+    display: flex;
+    flex: 0.13;
+}
+
+.footerhead{
+    display: flex;
+    flex: 0.15;
+}
+.footerdiv{
+    display: flex;
+    flex: 0.02;
+    justify-content: space-around;
+    color: #fc6f30;
+    
+}

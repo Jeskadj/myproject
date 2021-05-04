@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    /* flex: 0.1; */
+    background-color: #375a64;
+
+}
+.f:hover{
+    color: #375a64;
+}
+.s:hover{
+    color:#375a64;
+}
+.t:hover{
+    color: #375a64;
+}
+
+.main{
+    display: flex;
+    height: 150vh;
+    flex-direction: column;
+    /* background-image: url(../../images/landingsignupp.jpeg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* .first{
+    display: flex;
+    flex: 0.2;
+    align-items: center;
+    padding-left: 70px;
+    
+}
+
+.second{
+    display: flex;
+   flex: 0.2;
+   align-content: flex-end;
+   align-items: center;
+   justify-content: center;
+} */
+
+.firstpair{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex: 0.4;
+}
+
+.lowerpair{
+    display: flex;
+    flex: 0.4;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+/* .third{
+    display: flex;
+    flex: 0.2;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+}
+.fourth{
+    display: flex;
+    flex: 0.2;
+    align-content: flex-start;
+    justify-content: flex-end;
+    color: darkkhaki;
+} */
+
+/* .footerhead{
+    display: flex;
+    flex: 0.05;
+    background-color: cornflowerblue;
+} */
+.footerdiv{
+    display: flex;
+    flex: 0.1;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    color: #fc6f30;
+}
