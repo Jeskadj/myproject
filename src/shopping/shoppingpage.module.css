@@ -3,7 +3,7 @@
     padding: 0;
 }
  .main{
-     height: 200vh;
+     height: auto;
      background-color: red;
      display: flex;
      flex-direction: column;
@@ -11,11 +11,12 @@
  .nav{
      display: flex;
      flex: 0.05;
-     background-color: rosybrown;
+    background-color: #375a64;
+     
  }
  .title{
      display: flex;
-     flex: 0.15;
+     flex: 0.1;
      background-color: royalblue;
  }
  .beverage{
@@ -64,4 +65,9 @@
     display: flex;
     flex: 0.1;
     background-color: slategrey;
+}
+.footer{
+    height: 100px;
+    background-color: #375a64;
+    padding-top: 30px;
 }

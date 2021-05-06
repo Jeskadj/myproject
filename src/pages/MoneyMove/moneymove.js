@@ -6,8 +6,13 @@ import findlocation from "../../images/findlocation.png";
 import deliverlocation from "../../images/deliverlocation.png";
 import { useHistory } from "react-router-dom";
 import Navbar from "../../components/navbar";
+import { useState } from "react";
+import Footer from "../../components/footer";
+
+   
 
 function DriveSignup() {
+    const[toggle,setToggle]=useState('signup')
     const history=useHistory();
     return (
         <div className={MoneymoveCSS.main}>
@@ -20,10 +25,10 @@ function DriveSignup() {
                 </div>
 
                 <div className={MoneymoveCSS.SignUp}>
-                    <form className={MoneymoveCSS.form1} style={{ display: 'flex', flexDirection: 'column' }}>
+                    <form className={toggle== 'signup'? MoneymoveCSS.firstform_open : MoneymoveCSS.firstform_closed }>
                         <h3 style={{ marginBottom: "5px",color:'white'}}>
                             Sign Up Now
-               </h3>
+                       </h3>
 
                         <Inputfield padding='4px 0px' type="text" placeholder="Firstname" />
                         <Inputfield padding='4px 0px'type="text" placeholder="Lastname" />
@@ -55,7 +60,18 @@ function DriveSignup() {
 
                         </div>
 
-                        <a style={{ cursor: 'pointer' ,marginBottom:'10px'}} href="/login">Log in</a>
+                        <p onClick={()=>setToggle('login')}style={{ cursor: 'pointer' ,marginBottom:'10px',textDecoration:'underline',color:'blue'}}>Log in</p>
+                    </form>
+
+                    <form className={toggle== 'login'? MoneymoveCSS.secondform_open : MoneymoveCSS.secondform_closed}>
+                    <h3 style={{ color:'white',textAlign:'center',marginTop:20,paddingBottom:15}}>
+                            Sign Up Now
+                       </h3>
+                        <Inputfield padding='4px 0px' type="text" placeholder="Email" />
+                        <Inputfield padding='4px 0px' type="text" placeholder="Password" />
+                        <div style={{ display: 'flex', flexDirection: 'center', alignItems: 'center', alignContent: 'center', paddingLeft: '70px', width: '100px', height: '100px' }}>
+                            <Button onClickButton={() => history.push('/MoneyMovelogin')} text='Get Started' />
+                        </div>
                     </form>
 
                 </div>
@@ -77,9 +93,8 @@ function DriveSignup() {
                     <p>Make a delivery right there</p>
                 </div>
             </div>
-            <div className={MoneymoveCSS.footerdiv}>
-                © jesMove 2021
-       <p>We help you Move right where you are</p>
+            <div className={MoneymoveCSS.footer}>
+                <Footer/>
             </div>
         </div>
     )

@@ -19,7 +19,7 @@
 
 .main{
     display: flex;
-    height: 100vh;
+    height: 120vh;
     flex-direction: column;
     background-repeat: no-repeat;
     background-size:100%;
@@ -43,10 +43,15 @@
 
 }
 
-.footerdiv{
+/* .footerdiv{
     display: flex;
     flex: 0.1;
     justify-content: space-around;
     align-self: flex-end;
     color: #fc6f30;
+} */
+.footer{
+    height: 100px;
+    background-color: #375a64;
+    padding-top: 30px;
 }

@@ -11,6 +11,7 @@ import About from "../pages/About/About";
 import ShoppingPage from "../shopping/shoppingpage";
 
 
+
 function AppRoute(){
     return(
         <Switch>
@@ -24,6 +25,7 @@ function AppRoute(){
             <Route exact path="/About" component={About}/>
             <Route exact path="/Service" component={Service}/>
             <Route exact path="/ShoppingPage" component={ShoppingPage}/>
+            
         </Switch>
     )
 }

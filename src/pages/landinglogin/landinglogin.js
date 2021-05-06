@@ -1,8 +1,9 @@
 import landingloginCSS from "../landinglogin/landinglogin.module.css";
 import Navbar from "../../components/navbar";
-import jesMoveLogo from "../../images/jesMoveLogo.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
+import Footer from "../../components/footer";
+
 
 function LandingLogin(){
 
@@ -27,8 +28,8 @@ function LandingLogin(){
             </div>
             <div className={landingloginCSS.lowerpair}>
             <div className={landingloginCSS.third}>
-                <Link style={{textDecoration:'none'}}>
-                <h1 className={landingloginCSS.t}>Sign In for Bulk Purchase</h1>
+                <Link style={{textDecoration:'none'}} to="/Shoppingsignup">
+                <h1 className={landingloginCSS.t} >Sign In for Bulk Purchase</h1>
                 </Link>
             </div>
             <div className={landingloginCSS.fourth}>
@@ -39,15 +40,10 @@ function LandingLogin(){
 
             </div>
            <div className={landingloginCSS.footer}>
-           <div className={landingloginCSS.footerhead}>
-              <img height='150px' width='200px' src={jesMoveLogo} alt='jesMoveLogo'/>
-            </div>
-              <div className={landingloginCSS.footerdiv}>
-                © jesMove 2021
-       <p>We help you Move right where you are</p>
+                <Footer/>
             </div>
            </div>
-        </div>
+        
 
     )
 }

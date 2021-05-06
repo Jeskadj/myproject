@@ -17,7 +17,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     justify-content: center; 
-    height: 100vh; 
+    height: 150vh; 
 }
 
 .form{
@@ -34,16 +34,10 @@
     color: #375a64;
 }
 
-.footerhead{
-    display: flex;
-    flex: 0.15;
-    background-color:#375a64;
-}
-.footerdiv{
-    display: flex;
-    flex: 0.05;
-    justify-content: space-around;
-    color: #fc6f30;
+.footer{
+    height: 100px;
+    background-color: #375a64;
+    padding-top: 30px;
 }
 .firstform_open{
     display: flex;

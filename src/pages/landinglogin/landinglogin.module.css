@@ -20,7 +20,7 @@
 
 .main{
     display: flex;
-    height: 150vh;
+    height: 120vh;
     flex-direction: column;
     /* background-image: url(../../images/landingsignupp.jpeg); */
     background-repeat: no-repeat;
@@ -63,33 +63,8 @@
 }
 
 
-/* .third{
-    display: flex;
-    flex: 0.2;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    padding-left: 200px;
-}
-.fourth{
-    display: flex;
-    flex: 0.2;
-    align-content: flex-start;
-    justify-content: flex-end;
-    color: darkkhaki;
-} */
-
-/* .footerhead{
-    display: flex;
-    flex: 0.05;
-    background-color: cornflowerblue;
-} */
-.footerdiv{
-    display: flex;
-    flex: 0.1;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    color: #fc6f30;
+.footer{
+    height: 100px;
+    background-color: #375a64;
+    padding-top: 30px;
 }

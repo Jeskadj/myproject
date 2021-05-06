@@ -34,7 +34,7 @@ function Beverage() {
                     <img height='150px' width='150px' src={Betamalt} alt='Betamalt' />
                     <p>Beta Malt</p>
                 </div>
-                {/* <div>
+                <div>
             <img height='150px' width='150px'src={awake} alt='awake'/>
                     <p>Awake</p>
             </div>
@@ -49,7 +49,7 @@ function Beverage() {
             <div>
             <img height='150px' width='150px'src={senac} alt='senac'/>
                     <p>Senac</p>
-            </div> */}
+            </div> 
             </div>
         </div>
 

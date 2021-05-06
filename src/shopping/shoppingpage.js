@@ -1,12 +1,23 @@
-import  Navbar from '../components/navbar';
+import Navbar from '../components/navbar';
 import Beverage from "../components/beverage/beverage";
 import ShoppingPageCSS from "../shopping/shoppingpage.module.css"
+import Footer from "../components/footer";
 
 
 
-function ShoppingPage(){
-    return(
+function ShoppingPage() {
+    return (
         <div className={ShoppingPageCSS.main}>
+
+            {/* <div style={{
+                display: 'flex', position:'fixed',top:0,left:0,
+                zIndex:100,
+                justifyContent:'center',alignItems:'center',
+                width: '100%', height: '100%', backgroundColor: 'rgb(0,0,0,0.5)'
+            }}>
+                    <div style={{display:'flex',width:'50%',height:'50%',backgroundColor:'white'}}></div>
+            </div> */}
+
             <div className={ShoppingPageCSS.nav}>
                 <Navbar />
             </div>
@@ -14,11 +25,11 @@ function ShoppingPage(){
 
             </div>
             <div className={ShoppingPageCSS.beverage}>
-                <Beverage/>
+                <Beverage />
 
             </div>
-            <div className={ShoppingPageCSS.Oil}> 
-                
+            <div className={ShoppingPageCSS.Oil}>
+
             </div>
             <div className={ShoppingPageCSS.Breakfast}>
 
@@ -36,7 +47,10 @@ function ShoppingPage(){
 
             </div>
             <div className={ShoppingPageCSS.miscellaneous}>
-
+           
+            </div>
+            <div className={ShoppingPageCSS.footer}>
+                <Footer/>
             </div>
         </div>
 

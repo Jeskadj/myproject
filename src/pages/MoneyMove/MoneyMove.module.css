@@ -1,5 +1,5 @@
 .main{
-    height: 150vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -10,18 +10,11 @@
     background-image: url(../../images/get\ a\ ride.png);
     background-size: cover;
     background-position: center;
+    flex: 0.5;
+    align-items: center;
 }
 
-.form1{
-    justify-content: flex-end;
-    height: 520px;
-    align-items: center;
-    width: 350px;
-    align-content: center;
-    background-color:#bfbfbf;
-    margin-right: 50px;
-    display: flex;
-}
+
 .uppertext{
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -71,4 +64,53 @@ button:focus{
 }
 button:active{
     background-color: white;
+}
+.firstform_open{
+    background-color: #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    animation: slideleft 2s;
+    justify-content: flex-end;
+    height: 520px;
+    align-items: center;
+    width: 350px;
+    align-content: center;
+    margin-right: 50px;
+    display: flex;
+}
+.footer{
+    height: 100px;
+    background-color: #375a64;
+    padding-top: 30px;
+}
+.firstform_closed{
+    display: none;
+
+}
+.secondform_closed{
+display: none;
+}
+.secondform_open{
+    display: flex;
+    flex-direction: column;
+animation: slideright 3s;
+background-color: #bfbfbf; 
+}
+
+@keyframes slideleft{
+0%{
+    transform: translateY(-1000px);
+}
+100%{
+    transform: translateY(0px);
+}
+}
+
+@keyframes slideright{
+    0%{
+        transform: translateY(-1000px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }

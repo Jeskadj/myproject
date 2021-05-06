@@ -1,8 +1,8 @@
 import landingsignupCSS from "../landingsignup/landingsignup.module.css";
 import Navbar from "../../components/navbar";
-import jesMoveLogo from "../../images/jesMoveLogo.png";
 import {Link} from "react-router-dom";
 import { useHistory } from "react-router-dom";
+import Footer from "../../components/footer";
 
 function LandingSignup(){
 
@@ -31,8 +31,8 @@ function LandingSignup(){
             <div className={landingsignupCSS.lowerpair}>
 
             <div className={landingsignupCSS.third}>
-                <Link style={{textDecoration:'none'}}>
-                <h1 className={landingsignupCSS.t}>Sign Up for Bulk Purchase</h1>
+                <Link style={{textDecoration:'none'}} to='/Shoppingsignup'>
+                <h1 className={landingsignupCSS.t}onClickButton={() => history.push('/Shoppingsignup')}>Sign Up for Bulk Purchase</h1>
                 </Link>
             </div>
             <div className={landingsignupCSS.fourth}>

@@ -5,7 +5,6 @@ import landingpageCSS from "../landingpage/landingpage.module.css";
 import advertisement from "../../images/advertisement.png";
 import makemoney from "../../images/makemoney.png";
 import wholesaleshopping from "../../images/wholesaleshopping.png";
-// import Cards from "../../pageComponents/cards";
 import rice from  "../../images/rice.jpeg";
 import beverage from "../../images/beverage.jpeg";
 import breakfast from "../../images/breakfast.png";
@@ -14,6 +13,7 @@ import gifts from "../../images/gifts.jpeg";
 import oil from "../../images/oil.jpeg";
 import toileteries from "../../images/toileteries.jpeg";
 import cooking from "../../images/cooking.jpeg";
+import Footer from "../../components/footer";
 
 function LandingPage() {
     return (
@@ -87,18 +87,13 @@ function LandingPage() {
                 </div>
                 
                 </div>
-
-
-            </div>
+           </div>
             <div className={landingpageCSS.Advertisement}>
 
             </div>
-            <div className={landingpageCSS.footerhead}>
-              <img height='150px' width='200px' src={jesMoveLogo} alt='jesMoveLogo'/>
-            </div>
-              <div className={landingpageCSS.footerdiv} style={{color:"#fc6f30"}}>
-                © jesMove 2021
-       <p>We help you Move right where you are</p>
+            
+            <div className={landingpageCSS.footer}>
+                <Footer/>
             </div>
         </div>
 

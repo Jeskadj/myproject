@@ -1,11 +1,10 @@
-
 import Inputfield from "../../components/inputfield"
 import Button from "../../components/button";
 import SignUpCSS from "../../pages/signup/signup.module.css";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar";
-import jesMoveLogo from "../../images/jesMoveLogo.png";
 import { useState } from "react";
+import Footer from "../../components/footer";
 
 function Signup() {
     const[toggle,setToggle]=useState('signup')
@@ -37,7 +36,6 @@ function Signup() {
                         <Inputfield padding='4px 0px' type="text" placeholder="Email" />
                         <Inputfield padding='4px 0px' type="text" placeholder="Create Password" />
                         <Inputfield padding='4px 0px' type="text" placeholder="Address" />
-                        <input type='file' />
                         <div style={{ display: 'flex', flexDirection: 'center', alignItems: 'center', alignContent: 'center', paddingLeft: '70px', width: '100px', height: '100px' }}>
                             <Button text='Get Started' />
                         </div>
@@ -58,15 +56,11 @@ function Signup() {
             </div>
                 </div>
             </div>
+            
             <div className={SignUpCSS.footer}>
-                <div className={SignUpCSS.footerhead}>
-                    <img height='150px' width='200px' src={jesMoveLogo} alt='jesMoveLogo' />
-                </div>
-                <div className={SignUpCSS.footerdiv}>
-                    © jesMove 2021
-       <p>We help you Move right where you are</p>
-                </div>
+                <Footer/>
             </div>
+            
 
         </div>
     )
