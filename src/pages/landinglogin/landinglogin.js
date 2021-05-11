@@ -15,12 +15,12 @@ function LandingLogin(){
             </div>
             <div className={landingloginCSS.firstpair}>
             <div className={landingloginCSS.first}>
-                <Link style={{textDecoration:'none'}} to='/MovingMoney'>
+                <Link style={{textDecoration:'none',color:'#375a64'}} to='/MovingMoney'>
                 <h1 className={landingloginCSS.f}onClickButton={() => history.push('/MovingMoney')}>Sign In to make MoneyMove</h1>
                 </Link>
             </div>
             <div className={landingloginCSS.second}>
-                <Link style={{textDecoration:'none'}}to='/signup'>
+                <Link style={{textDecoration:'none',color:'#375a64'}}to='/signup'>
                 <h1 className={landingloginCSS.s} onClickButton={() => history.push('/signup')}>Sign In for Pick-Ups& A Ride </h1>
                  </Link>
              </div>
@@ -28,12 +28,12 @@ function LandingLogin(){
             </div>
             <div className={landingloginCSS.lowerpair}>
             <div className={landingloginCSS.third}>
-                <Link style={{textDecoration:'none'}} to="/Shoppingsignup">
+                <Link style={{textDecoration:'none',color:'#375a64'}} to="/Shoppingsignup">
                 <h1 className={landingloginCSS.t} >Sign In for Bulk Purchase</h1>
                 </Link>
             </div>
             <div className={landingloginCSS.fourth}>
-                <Link style={{textDecoration:'none'}}>
+                <Link style={{textDecoration:'none',color:'#375a64'}}>
                 <h1 className={landingloginCSS.f}>Sign In for Advertisement</h1>
                 </Link>
            </div>

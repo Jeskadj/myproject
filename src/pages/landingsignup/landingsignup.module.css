@@ -7,7 +7,12 @@
     /* flex: 0.1; */
     background-color: #375a64;
 }
-.f:hover{
+
+.f{
+    text-decoration: none;
+}
+
+.f:active{
     color:#375a64 ;
 }
 .s:hover{

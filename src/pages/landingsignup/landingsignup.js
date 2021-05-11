@@ -17,7 +17,9 @@ function LandingSignup(){
             <div className={landingsignupCSS.firstpair}>
 
             <div className={landingsignupCSS.first}>
-                <Link style={{textDecoration:'none'}} to='/MovingMoney'>
+                <Link to='/MovingMoney'
+                 style={{textDecoration:'none'}} 
+                 >
                 <h1 className={landingsignupCSS.f}onClickButton={() => history.push('/MovingMoney')}>Sign Up to make MoneyMove</h1>
                 
                 </Link>

@@ -9,12 +9,12 @@ import senac from "../../images/beverages/senac.jpeg";
 import petfanta from "../../images/beverages/petfanta.png";
 import dietcoke from "../../images/beverages/dietcoke.jpeg";
 
-function Beverage() {
+function Beverage(props) {
     return (
         <div className={BeverageCSS.main}>
             <div className={BeverageCSS.container}>
 
-                <div >
+                <div onClick={props.onClick} >
                     <img height='150px' width='150px' src={canmalt} alt='canmalt' />
                     <p>Can Malt</p>
                 </div>

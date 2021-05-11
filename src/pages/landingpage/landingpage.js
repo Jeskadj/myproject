@@ -1,6 +1,5 @@
 import Navbar from '../../components/navbar';
 import '../landingpage/landingpage.module.css';
-import jesMoveLogo from "../../images/jesMoveLogo.png";
 import landingpageCSS from "../landingpage/landingpage.module.css";
 import advertisement from "../../images/advertisement.png";
 import makemoney from "../../images/makemoney.png";
@@ -25,8 +24,8 @@ function LandingPage() {
 
                 <div className={landingpageCSS.leftlandingpage}>
 
-                    <p style={{fontSize:40,paddingLeft:40}}>Send items speedingly from your present Location</p>
-                    <p style={{fontSize:30,paddingLeft:200,paddingTop:40,fontStyle:'oblique'
+                    <p style={{fontSize:40,paddingLeft:40,fontStyle:'oblique'}}>Send items speedingly from your present Location</p>
+                    <p style={{fontSize:30,paddingTop:40,fontStyle:'oblique'
                         }} >Move it Here</p>
 
                 </div>
@@ -61,25 +60,25 @@ function LandingPage() {
                 </div>
                 <div className={landingpageCSS.card3}>
                     <img height='150px' width='150px'src={rice} alt='ginorice'/>
-                    <p>Rice</p>
+                    <p style={{alignSelf:'center'}}>Rice</p>
                 </div>
                 <div className={landingpageCSS.card4}>
                     <img height='150px' width='150px'src={toileteries} alt='kokot-roll'/>
                     <p>Cleaning Supply</p>
                 </div>
                 </div>
-                <div className={landingpageCSS.bottomrow}>
+                <div className={landingpageCSS.bottomrow} style={{fontStyle:'oblique'}}>
                 <div className={landingpageCSS.card5}>
                     <img height='150px' width='150px'src={cooking} alt='cornedbeef'/>
                     <p>Cooking</p>
                 </div>
                 <div className={landingpageCSS.card6} >
                    <img height='150px' width='150px'src={oil} alt='wessonoil'/>
-                   <p>Oil</p>
+                   <p style={{alignSelf:'center'}}>Oil</p>
                 </div>
                 <div className={landingpageCSS.card7} >
                    <img height='150px' width='150px'src={pet} alt='dogchow'/>
-                   <p>Pet Care</p>
+                   <p style={{alignSelf:'center'}}>Pet Care</p>
                 </div>
                 <div className={landingpageCSS.card8}>
                     <img height='150px' width='150px'src={gifts} alt='hamper'/>
@@ -88,9 +87,9 @@ function LandingPage() {
                 
                 </div>
            </div>
-            <div className={landingpageCSS.Advertisement}>
+            {/* <div className={landingpageCSS.Advertisement}>
 
-            </div>
+            </div> */}
             
             <div className={landingpageCSS.footer}>
                 <Footer/>

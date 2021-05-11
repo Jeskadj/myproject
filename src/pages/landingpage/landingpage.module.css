@@ -49,12 +49,14 @@
     flex: 0.1;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    font-style:'oblique'
 }
 .Shopping{
     display: flex;
     flex: 0.3;
     flex-direction: column;
     font-size: 30px;
+    font-style:'oblique'
 }
 .shoppingheading{
     display: flex;
@@ -66,7 +68,7 @@
     background-color:#bfbfbf;
     height: 60px;
     width: 100vw;
-    
+    font-style:'oblique'
     
 
     
@@ -77,6 +79,7 @@
     align-items: center;
     justify-content: space-around;
     height: 280px;
+    font-style: oblique;
 }
 .card1{
     display: flex;
@@ -96,9 +99,22 @@
     display: flex;
     width: 150px;
     height: 150px;
-    border-radius: 15px;
     flex-direction: column;
 }
+ .card6{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        flex-direction: column;
+ }
+ .card7{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+}
+
 .card4{
     display: flex;
     width: 150px;
@@ -112,17 +128,18 @@
     justify-content: space-around;
     /* height: 20px; */
     margin-bottom: 40px;
+    font-style:'oblique'
 }
 
-.Advertisement{
+/* .Advertisement{
     display: flex;
-    /* flex: 0.18; */
+    flex: 0.18;
     background-color: burlywood;
     height: 50px;
     margin-top: 10px;
     
 
-}
+} */
 
 .footer{
     height: 100px;
